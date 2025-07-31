@@ -1,0 +1,63 @@
+body {
+    background-image: url("mayur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    font-size: 30px;
+    background-color: #3d656e;
+    font-family: 'Times New Roman', serif;
+    /* background: linear-gradient(to bottom, #bfd3e6 0%, #7b7fb9 100%) */
+
+
+}
+
+#maindiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: #e0dff5;
+    box-shadow: -2px 20px 20px 20px #3d3f4057;
+    /* border: 2px solid; */
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+#title {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 1px -4px 20px 0px;
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+.items {
+    display: flex;
+    justify-content: left;
+    margin: 15px;
+    box-shadow: -5px 1px 12px 0px;
+    color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+    background-color: #c6c8e4;
+}
+
+.items:hover {
+    background-color: #d1d0ec;
+    font-size: px;
+}
+
+button {
+    font-size: 18px;
+    height: 25px;
+    margin: auto 26px auto 18px;
+    color: white;
+    background-color: #23791c;
+}
+
+#option {
+    font-size: 23px;
+    height: 34px;
+    margin: auto 26px auto 18px;
+}
