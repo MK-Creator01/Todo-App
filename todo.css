@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-color: #cccccc;
     font-size: 30px;
-    background-color: #3d656e;
+    background-color: #f5e9f7;
     font-family: 'Times New Roman', serif;
     /* background: linear-gradient(to bottom, #bfd3e6 0%, #7b7fb9 100%) */
 
@@ -19,7 +19,7 @@ body {
     box-shadow: -2px 20px 20px 20px #3d3f4057;
     /* border: 2px solid; */
     margin: auto;
-    width: 500px;
+    width: 1000px;
     border-radius: 10px;
 
 }
@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: left;
     margin: 15px;
+    height: 96px;
     box-shadow: -5px 1px 12px 0px;
     color: rgba(0, 0, 0, 0.63);
     border-radius: 10px;
@@ -49,9 +50,10 @@ body {
 }
 
 button {
-    font-size: 18px;
-    height: 25px;
-    margin: auto 26px auto 18px;
+    font-size: 29px;
+    /* height: 25px; */
+    margin: 0px 27px auto 9px;
+    border-radius: 7px;
     color: white;
     background-color: #23791c;
 }
@@ -60,4 +62,9 @@ button {
     font-size: 23px;
     height: 34px;
     margin: auto 26px auto 18px;
+}
+.inputtask{
+    height: 32px;
+    margin: 45px -97px;
+    border-radius: 10px;
 }

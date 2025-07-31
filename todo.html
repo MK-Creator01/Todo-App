@@ -14,10 +14,10 @@
         <div id="title">
             <h2></h2>
             <h2>To-Do List</h2>
+            <input type="text" id="myText" class="inputtask" placeholder="Add your new task hear...">
             <h2> <button onclick="AddItem()"> Add</button></h2>
 
         </div>
-
 
         <div class="items">
             <select name="cars" id="option">
@@ -33,7 +33,7 @@
                 <option value="Done">&#10004;</option>
                 <option value="Skip">&#10680;</option>
             </select>
-            <p>weakdfgdhfghf-up at 6pm</p>
+            <p>weak-up 6pm</p>
         </div>
         <div class="items">
             <select name="cars" id="option">
@@ -41,7 +41,7 @@
                 <option value="Done">&#10004;</option>
                 <option value="Skip">&#10680;</option>
             </select>
-            <p>weak-gup at 6pm</p>
+            <p>weak-up at 6pm</p>
         </div>
         <div class="items">
             <select name="cars" id="option">
@@ -67,10 +67,25 @@
             </select>
             <p>weak-up at 6pm</p>
         </div>
-        <div id="add">
 
+
+        <div id="div1" class="items">
+            <select name="cars" id="option">
+                <option value="Panding">&#xf079;</option>
+                <option value="Done">&#10004;</option>
+                <option value="Skip">&#10680;</option>
+            </select>
+            <p id="demo"></p>
         </div>
     </div>
+
+    <!-- <script>
+        const para = document.createElement("p");
+        const node = document.createTextNode("This is new.");
+        para.appendChild(node);
+        const element = document.getElementById("div1");
+        element.appendChild(para);
+    </script> -->
 </body>
 
 </html>
