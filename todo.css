@@ -33,6 +33,40 @@ body {
 
 }
 
+#add {
+    font-size: 21px;
+    /* height: 25px; */
+    /* margin: 0px 27px auto 9px; */
+    border-radius: 7px;
+    color: white;
+    background-color: #23791c;
+}
+
+#login {
+    background-color: #1a66df;
+    width: 76px;
+    height: 48px;
+    color: white;
+    font-size: 21px;
+    /* margin: 0px auto; */
+    margin-top: 40px;
+    border-radius: 9px;
+}
+#login:hover {
+    background-color: #bdbdd6;
+    transition-duration:0.5s;
+}
+
+span {
+    display: ruby;
+}
+
+.inputtask {
+    height: 30px;
+    /* margin: 45px -97px; */
+    border-radius: 10px;
+}
+
 .items {
     display: flex;
     justify-content: left;
@@ -43,28 +77,21 @@ body {
     border-radius: 10px;
     background-color: #c6c8e4;
 }
-
 .items:hover {
     background-color: #d1d0ec;
     font-size: px;
 }
-
-button {
-    font-size: 29px;
-    /* height: 25px; */
-    margin: 0px 27px auto 9px;
-    border-radius: 7px;
-    color: white;
-    background-color: #23791c;
+.delete{
+    height: 29px;
+    margin-left: 839px;
+    margin-top: 36px;
+    font-size: 17px;
+    position: absolute;
 }
+
 
 #option {
     font-size: 23px;
     height: 34px;
     margin: auto 26px auto 18px;
-}
-.inputtask{
-    height: 32px;
-    margin: 45px -97px;
-    border-radius: 10px;
 }
