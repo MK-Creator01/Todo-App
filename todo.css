@@ -18,6 +18,7 @@ body {
     background-color: #e0dff5;
     box-shadow: -2px 20px 20px 20px #3d3f4057;
     /* border: 2px solid; */
+    height: 760px;
     margin: auto;
     width: 1000px;
     border-radius: 10px;
@@ -52,9 +53,10 @@ body {
     margin-top: 40px;
     border-radius: 9px;
 }
+
 #login:hover {
     background-color: #bdbdd6;
-    transition-duration:0.5s;
+    transition-duration: 0.5s;
 }
 
 span {
@@ -67,6 +69,15 @@ span {
     border-radius: 10px;
 }
 
+
+.scroll-box {
+    width: 800px;
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
 .items {
     display: flex;
     justify-content: left;
@@ -77,14 +88,16 @@ span {
     border-radius: 10px;
     background-color: #c6c8e4;
 }
+
 .items:hover {
     background-color: #d1d0ec;
     font-size: px;
 }
-.delete{
-    height: 29px;
+
+.delete {
+    height: 44px;
     margin-left: 839px;
-    margin-top: 36px;
+    margin-top: 26px;
     font-size: 17px;
     position: absolute;
 }

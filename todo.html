@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="todo.css">
     <script src="todo.js"></script>
     <title>To Do List </title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -16,97 +17,25 @@
             <h2>To-Do List</h2>
             <span>
                 <input type="text" id="myText" class="inputtask" placeholder="Add your new task hear...">
-                <h2> <button onclick="AddItem()" id="add"> Add</button></h2>
+                <h2> <button onclick="gettask()" id="add"> Add</button></h2>
             </span>
-
-
         </div>
 
-        <div class="items">
+        <!-- <div class="scroll-box"> -->
+        <div class="items" id="Defalttask">
             <select name="cars" id="option">
                 <option value="Panding">&#xf079;</option>
                 <option value="Done">&#10004;</option>
                 <option value="Skip">&#10680;</option>
             </select>
             <p>weak-up 6pm</p>
-            <button class="delete">Delete</button>
+            <i style="font-size:30px" onclick="taskdel()" class="fa delete">🗑️</i>
         </div>
-
-        <div class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p>Breack fast</p>
-            <button class="delete">Delete</button>
-
-        </div>
-
-        <div class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p>Collage</p>
-            <button class="delete">Delete</button>
-
-        </div>
-
-        <div class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p>Lunch</p>
-            <button class="delete">Delete</button>
-
-        </div>
-
-        <div class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p>Play</p>
-            <button class="delete">Delete</button>
-
-        </div>
-
-        <div class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p>Pray</p>
-            <button class="delete">Delete</button>
-
-        </div>
+        <!-- </div> -->
 
 
-        <div id="div1" class="items">
-            <select name="cars" id="option">
-                <option value="Panding">&#xf079;</option>
-                <option value="Done">&#10004;</option>
-                <option value="Skip">&#10680;</option>
-            </select>
-            <p id="demo"></p>
-            <button class="delete">Delete</button>
-
-        </div>
     </div>
 
-    <!-- <script>
-        const para = document.createElement("p");
-        const node = document.createTextNode("This is new.");
-        para.appendChild(node);
-        const element = document.getElementById("div1");
-        element.appendChild(para);
-    </script> -->
 </body>
 
 </html>
